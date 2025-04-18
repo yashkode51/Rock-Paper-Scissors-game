@@ -1,18 +1,19 @@
-# Rock-Paper-Scissors-gameStep 1: Project Setup
-Create Project Directory
-mkdir rock-paper-scissors
-cd rock-paper-scissors
-Install Required Libraries (For GUI Version)
-pip install tkinter 
-Create rps_cli.py
-python rps_cli.py
-Features:
-User vs. Computer gameplay.
-Input validation (only accepts R, P, or S).
-Determines the winner based on game rules.
-Create rps_gui.py
-python rps_gui.py
-Features:
-Interactive buttons for Rock, Paper, Scissors.
-Displays computer's choice and game result.
-Clean and simple GUI.
+Setup: Create a project directory (mkdir rock-paper-scissors && cd rock-paper-scissors) and install tkinter for the GUI (pip install tkinter).
+
+CLI Version: Create rps_cli.py with user input validation (R/P/S), random computer choice, and win logic (e.g., Rock beats Scissors). Run with python rps_cli.py.
+
+GUI Version: Build rps_gui.py using Tkinter with interactive buttons (Rock/Paper/Scissors), result display, and computer choice logic. Run with python rps_gui.py.
+
+Enhancements: Add score tracking or images (optional).
+
+Documentation: Write a README.md with features, setup instructions, and screenshots.
+
+Deploy: Upload to GitHub with both scripts and documentation.
+
+Key Features:
+
+CLI: Simple terminal gameplay.
+
+GUI: Visual buttons and instant results.
+
+Extendable: Add scores, multiplayer, or web versions later.
