@@ -6,7 +6,11 @@ class RockPaperScissors:
     def __init__(self, root):
         self.root = root
         self.root.title("Rock-Paper-Scissors")
-        self.root.geometry("300x200")
+        self.root.geometry("300x250")
+
+        # Welcome Label
+        self.welcome_label = tk.Label(root, text="Welcome to Rock-Paper-Scissors!", font=("Arial", 14, "bold"))
+        self.welcome_label.pack(pady=10)
 
         # Buttons
         self.rock_btn = tk.Button(root, text="Rock", command=lambda: self.play("R"))
